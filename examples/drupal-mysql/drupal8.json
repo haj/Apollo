@@ -23,7 +23,7 @@
         "MYSQL_ROOT_PASSWORD": "password"
       },
       "cpus": 1,
-      "mem": 512.0,
+      "mem": 1024.0,
       "instances": 1
     },
     {

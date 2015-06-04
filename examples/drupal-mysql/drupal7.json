@@ -14,11 +14,6 @@
             "protocol": "tcp"
           }]
         },
-        "volumes": [{
-          "containerPath": "/var/lib/mysql",
-          "hostPath": "/mnt/mysql",
-          "mode": "RW"
-        }]
       },
       "env": {
         "SERVICE_NAME": "mysql",
@@ -28,7 +23,7 @@
         "MYSQL_ROOT_PASSWORD": "password"
       },
       "cpus": 1,
-      "mem": 512.0,
+      "mem": 1024.0,
       "instances": 1
     },
     {
