@@ -54,7 +54,7 @@ By default the database will not be pre-populated. To install the site either:
   - Get the container id: ```docker ps | grep drupal```
   - Login to the container: ```docker exec -it $CONTAINER_ID /bin/bash```
   - Install the site:
-  ```drush site-install commerce_kickstart --site-name=default --acount-pass=changeme -y```
+  ```drush site-install commerce_kickstart --site-name=default --account-pass=changeme -y```
 
 ### Removing the apps
 
